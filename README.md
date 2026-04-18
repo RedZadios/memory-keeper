@@ -184,21 +184,7 @@ memory-keeper/
         └── detail-template.md        # Skeleton for task detail files
 ```
 
-## Requirements
 
-- Claude Code (or compatible LLM coding agent)
-- Git (for diff tracking)
-- Markdown support
-
-## License
-
-[Add your license here]
-
-## Contributing
-
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
-
-## Support
 
 For issues, questions, or suggestions, please open an issue on GitHub or contact the maintainers.
 
