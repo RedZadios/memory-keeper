@@ -1,7 +1,17 @@
 ---
-
 name: memory-keeper
-description: Records and retrieves project modification history across different LLM agents and sessions, so Claude, Codex, Kimi, Gemini, and other coding agents can share progress on the same codebase. Use this skill whenever the user finishes a coding task, to offer recording the change; starts a new task on a project that has a memory/ folder, to inherit relevant prior context before working; or invokes /read-memory or /update-memory. Also trigger on phrases like "continue from where we left off", "what's been done on this project", "record this change", "record this modification", "inherit previous progress", "read memory", or whenever you notice a memory/ folder in the project root and have not yet checked it this session. This is the persistent cross-agent memory that survives tool switches — do not rely on conversation compaction for this purpose.
+description: >
+  Records and retrieves project modification history across different LLM agents
+  and sessions, so Claude, Codex, Kimi, Gemini, and other coding agents can share
+  progress on the same codebase. Use this skill whenever the user finishes a
+  coding task, starts a new task on a project that has a memory/ folder, or invokes
+  /read-memory or /update-memory. Also trigger on phrases like "continue from
+  where we left off", "what's been done on this project", "record this change",
+  "record this modification", "inherit previous progress", "read memory", or
+  whenever you notice a memory/ folder in the project root and have not yet checked
+  it this session. This is the persistent cross-agent memory that survives tool
+  switches — do not rely on conversation compaction for this purpose.
+---
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Memory Keeper
